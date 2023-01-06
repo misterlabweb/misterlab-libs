@@ -1,0 +1,50 @@
+.my-masonry-grid {
+  display: -webkit-box;
+  /* Not needed if autoprefixing */
+  display: -ms-flexbox;
+  /* Not needed if autoprefixing */
+  display: flex;
+  margin-left: -30px;
+  /* gutter size offset */
+  width: auto;
+}
+
+.my-masonry-grid_column {
+  padding-left: 30px;
+  /* gutter size */
+  background-clip: padding-box;
+}
+
+/* Style your items */
+.my-masonry-grid_column>div {
+  /* change div to reference your elements you put in <Masonry> */
+  background: rgb(222, 222, 222);
+  margin-bottom: 30px;
+}
+
+.ms_item {
+  position: relative;
+  background-color: #FFFFFF !important;
+  border: 1px solid gray;
+  border-radius: .25rem;
+  padding: 10px;
+  
+
+  box-shadow: 0 0.5rem 1rem rgb(0 0 0 / 15%) !important;
+  transition: all 0.5s;
+  border: 1px solid rgb(255 255 255) !important;
+  opacity: 1;
+}
+
+.ms_item:hover {
+  background-color: rgb(84 84 84 / 20%) !important;
+  border: 1px solid rgb(241 0 255 / 1) !important;
+  opacity: 1;
+}
+
+.ms_item p{
+  margin-bottom: 0.4rem;
+  font-size: .78rem !important;
+  line-height: 1.3;
+
+}
